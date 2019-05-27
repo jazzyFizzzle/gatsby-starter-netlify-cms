@@ -6,11 +6,19 @@ heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Proof Bakery
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  description: >-
+    A small micro bakery that bakes breads and croissants made using
+    stone-ground flour containing no additives or preservatives. 
+
+
+    Baking bread using the old fashion ways and techniques, making use of slow
+    rising with no proofers makes it extremely easy to digest bread packed with
+    good gut microbes and probiotics.
+
+
+    Slow mixing and a minimum 12-hour fermentation allows for full flavour
+    development, minimal oxidation (nutrient loss). All hand shaped, and baked
+    at high temperatures for a beautiful crust, and moist crumb.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
