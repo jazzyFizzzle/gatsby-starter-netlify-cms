@@ -24,6 +24,7 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
+        filter: 'grayscale(100%)'
       }}
     >
       <div
@@ -39,29 +40,14 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+            color: 'black',
             lineHeight: '1',
             padding: '0.25em',
+            textTransform: 'uppercase',
           }}
         >
           {title}
         </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
       </div>
     </div>
     <section className="section section--gradient">
@@ -71,14 +57,19 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
+                  <div className="tile" style={{textTransform: 'uppercase', textAlign: 'center'}}>
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h3 className="subtitle"  style={{lineHeight: '30px', fontWeight: '400'}}>
+                    {/* {mainpitch.description} */}
+                    <p>A small micro bakery that bakes breads and croissants made using stone-ground flour containing no additives or preservatives. </p>
+                    <p>Baking bread using the old fashion ways and techniques, making use of slow rising with no proofers makes it extremely easy to digest bread packed with good gut microbes and probiotics. </p>
+                    <p>Slow mixing and a minimum 12-hour fermentation allows for full flavour development, minimal oxidation (nutrient loss). All hand shaped, and baked at high temperatures for a beautiful crust, and moist crumb. </p>
+                    </h3>
                   </div>
                 </div>
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
@@ -89,7 +80,7 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
+                    <Link className="btn" to="/about">
                       See all products
                     </Link>
                   </div>
@@ -104,7 +95,7 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
