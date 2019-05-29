@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import logo from '../img/proof-logo-black.svg'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -46,7 +47,7 @@ export const IndexPageTemplate = ({
             textTransform: 'uppercase',
           }}
         >
-          {title}
+          <img className="banner-img" src={logo} alt="Kaldi" style={{ }} />
         </h1>
       </div>
     </div>
@@ -69,7 +70,7 @@ export const IndexPageTemplate = ({
                     </h3>
                   </div>
                 </div>
-                {/* <div className="columns">
+                <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
@@ -95,7 +96,7 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
