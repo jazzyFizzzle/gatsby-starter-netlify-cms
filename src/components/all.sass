@@ -3,7 +3,7 @@
 // Config vars
 // Kaldi logo brand color: #FD461E
 $body-color: #333
-$black: #2b2523
+$black: black
 
 body 
  font-family: 'Montserrat', sans-serif !important
@@ -87,7 +87,7 @@ body
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  background-color: black !important
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -134,9 +134,13 @@ $menu-label-color: $white-ter
     flex-basis: 50%;
 
 +mobile
+  .banner-img
+    display: none;
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .logo-img
+    padding-left: 20px;
