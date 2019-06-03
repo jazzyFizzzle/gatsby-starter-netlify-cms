@@ -19,34 +19,30 @@ mainpitch:
     Slow mixing and a minimum 12-hour fermentation allows for full flavour
     development, minimal oxidation (nutrient loss). All hand shaped, and baked
     at high temperatures for a beautiful crust, and moist crumb.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+description: 'Delicious, Fresh baked breads and croissants. Emphasis on quality'
 intro:
   blurbs:
-    - image: /img/chemex.jpg
+    - image: /img/bweads.jpg
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-    - image: /img/chemex.jpg
+    - image: /img/cwassos.jpg
       text: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your
         own beans or just bought your first french press, you’ll find a gadget
         to fall in love with in our shop.
-    - image: /img/chemex.jpg
+    - image: /img/bweads.jpg
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
         fancy new Chemex but have no clue how to use it? Don't worry, we’re here
         to help. You can schedule a custom 1-on-1 consultation with our baristas
         to learn anything you want to know about coffee roasting and brewing.
         Email us or call the store for details.
-    - image: /img/chemex.jpg
+    - image: /img/cwassos.jpg
       text: >
         We believe that good coffee has the power to bring people together.
         That’s why we decided to turn a corner of our shop into a cozy meeting
@@ -55,10 +51,8 @@ intro:
         sale. The full price you pay goes to the artist.
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    A little bit about who we are. Get it in contact directly or send an email.
+    Visit contact page
 main:
   heading: Great coffee with no compromises
   description: >
