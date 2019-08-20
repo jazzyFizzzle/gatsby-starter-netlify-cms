@@ -45,7 +45,7 @@ export default class Index extends React.Component {
                     <ul style={{listStyle: 'none'}}>
                       <li>
                         <h3>Contact Number</h3>
-                        073075688
+                        0730075688
                       </li>
                       <li>
                         <h3>Email</h3>

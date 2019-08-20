@@ -57,7 +57,7 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="tile">
                     {/* {mainpitch.description} */}
-                    <p>A small atisanal bakery that bakes breads and croissants made using stone-ground flour containing no additives or preservatives. </p>
+                    <p>A small artisanal bakery that bakes breads and croissants made using stone-ground flour containing no additives or preservatives. </p>
                     <p>Baking bread using the old fashion ways and techniques, making use of slow rising with no proofers makes it extremely easy to digest bread packed with good gut microbes and probiotics. </p>
                     <p>Slow mixing and a minimum 12-hour fermentation allows for full flavour development, minimal oxidation (nutrient loss). All hand shaped, and baked at high temperatures for a beautiful crust, and moist crumb. </p>
                   </div>
